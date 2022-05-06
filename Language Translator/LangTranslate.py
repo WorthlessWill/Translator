@@ -4,7 +4,7 @@ import googletrans
 from googletrans import Translator
 
 root=Tk()
-root.title("Translator App")
+root.title("Translate All")
 root.geometry("1080x400")
 root.resizable(False,False)
 root.configure(background="white")
@@ -27,7 +27,7 @@ def translate_now():
     text2.insert(END,trans_text)
 
 #icon
-image_icon=PhotoImage(file="aaa.png")
+image_icon=PhotoImage(file="download.png")
 root.iconphoto(False,image_icon)
 
 #arrow
